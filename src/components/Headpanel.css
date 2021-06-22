@@ -1,0 +1,20 @@
+.h-panel{
+  height: 10.5%;
+  background: url('../images/head_bg.png') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.h-panel h1{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.h-panel h4{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+}

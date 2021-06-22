@@ -1,0 +1,46 @@
+.panel {
+  position: relative;
+  margin: 0 0 2% 2%;
+  flex: 0 1 auto;
+  height: 32%;
+  width: 98%;
+  background-color: rgba(0, 0, 0, .3);
+}
+.panel::before{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 10px;
+  width: 10px;
+  border-top: 2px solid aqua;
+  border-left: 2px solid aqua;
+  content: "";
+}
+.panel::after{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 10px;
+  width: 10px;
+  border-top: 2px solid aqua;
+  border-right: 2px solid aqua;;
+  content: "";
+}
+.panel .plbottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  border-bottom: 2px solid aqua;
+  border-left: 2px solid aqua;
+}
+.panel .prbottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 10px;
+  width: 10px;
+  border-bottom: 2px solid aqua;
+  border-right: 2px solid aqua;
+}

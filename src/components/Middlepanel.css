@@ -1,0 +1,46 @@
+.mdpanel{
+  flex: 1.5;
+  position: relative;
+}
+.mhpanel{
+  height: 17%;
+  width: 95%;
+  margin: auto;
+  background-color: rgba(0,0,0,.2);
+}
+.fapanel{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.chpanel1,.chpanel2,.chpanel3{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%,-50%);
+  width: 50vh;
+  height: 50vh;
+}
+.chpanel1{
+  width: 40vh;
+  height: 40vh;
+  background: url('../images/map.png') no-repeat;
+  background-size: 100% 100%;
+  opacity: .3;
+}
+.chpanel2{
+  background: url('../images/lbx.png') no-repeat;
+  background-size: 100% 100%;
+}
+.chpanel3{
+  background: url('../images/jt.png') no-repeat;
+  background-size: 100% 100%;
+}
+@keyframes chimg {
+  0%{
+    transform: translate(-50%,-50%) rotate(0deg)
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(-1turn);
+  }
+}

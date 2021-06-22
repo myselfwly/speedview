@@ -1,0 +1,6 @@
+.rpanel{
+  flex: 1;
+}
+.rpanel .panel{
+  margin: 0 2% 2% 0 ;
+}
