@@ -31,16 +31,29 @@
 .chpanel2{
   background: url('../images/lbx.png') no-repeat;
   background-size: 100% 100%;
+  animation: ch1img 10s infinite;
+  animation-timing-function: linear;
 }
 .chpanel3{
+  width: 43.5vh;
+  height: 43.5vh;
   background: url('../images/jt.png') no-repeat;
   background-size: 100% 100%;
+  animation: ch2img 10s linear infinite;
 }
-@keyframes chimg {
+@keyframes ch2img {
   0%{
-    transform: translate(-50%,-50%) rotate(0deg)
+    transform: translate(-50%,-50%) rotate(0deg);
   }
   100%{
     transform: translate(-50%,-50%) rotate(-1turn);
+  }
+}
+@keyframes ch1img {
+  0%{
+    transform: translate(-50%,-50%) rotate(-1turn);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(0deg);
   }
 }

@@ -1,12 +1,15 @@
 import './Leftpanel.css';
-import Panel from './Panel';
+import Panellb from './Panel/LeftPanel/Panellb';
+import Panell from './Panel/LeftPanel/Panell';
+import Panelbb from './Panel/LeftPanel/Panelbb';
+
 function Leftpanel() {
 
   return (
     <div className='lpanel'>
-      <Panel/>
-      <Panel/>
-      <Panel/>
+      <Panellb className={"p-l-u"}/>
+      <Panell className={"p-l-m"}/>
+      <Panelbb className={"p-l-b"}/>
     </div>
   )
 }
